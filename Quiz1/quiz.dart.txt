@@ -1,0 +1,19 @@
+/Login Program
+
+void main() {
+  String email = "umair@gmail.com";
+  String password = "umairss391";
+
+  String userEmail = "umairone@gmail.com";
+  String userPassword = "umair1ss391";
+
+  if (email == userEmail && password == userPassword) {
+    print("Congratulations");
+  } else if (email != userEmail && password == userPassword) {
+    print("Wrong email");
+  } else if (email == userEmail && password != userPassword) {
+    print("Wrong password");
+  } else if (email != userEmail && password != userPassword) {
+    print("Incorrect email or password");
+  }
+}
